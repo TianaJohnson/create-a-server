@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(167, 140, 192);
+}
+
+table {
+    margin: 15px 120px;
+    width: 1000px;
+}
+
+table, th, td {
+    background-color: rgb(91, 193, 224);
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    width: 133px;
+
+}
+
+#submitTable {
+    margin: 20px;
+}
+
+#addEmployee {
+    margin: 10px 60px;
+}
+
+
+
+#contentAdd {
+    padding: 5px;
+    width: 133px;
+}
+
+header {
+    margin:0;
+    padding: 0;
+    background-color: aqua;
+    text-align: center;
+    font-size: 30px;
+}
+
+#addEmployee {
+    text-align: center;
+}
+
+#inputAddEmp {
+
+}
+
+#addEmployee{
+    text-align: center;
+}

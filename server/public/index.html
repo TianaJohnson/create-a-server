@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Salary Calculatore</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="client1.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
+
 <body>
-    <h2> Done! </h2>
+    <header>
+        <h1>Salary Calculator</h1>
+    </header>
+    <br>
+    <div id="addEmployee">
+        <h2>Add Employee</h2>
+        <div id="inputAddEmp">
+            <input class="firstNameInput" type="text" placeholder="First Name" />
+            <input class="lastNameInput" type="text" placeholder="Last Name" />
+            <input class="emplIDInput" type="number" placeholder="ID" />
+            <input class="empTitleInput" type="text" placeholder="Title" />
+            <input class="annualSalaryInput" type="number" placeholder="Annual Salary" />
+            <button id="submit">Submit</button>
+
+        </div>
+    </div>
+
+<br>
+
+    <div id="submitTable">
+        <table class="infoTable">
+            <thead>
+                <tr>
+
+                    <th> First Name </th>
+                    <th> Last Name </th>
+                    <th> ID </th>
+                    <th> Title </th>
+                    <th> Annual Salary </th>
+                    <th>
+                        <h4>Remove line</h4>
+                    </th>
+
+                </tr>
+            </thead>
+            <tbody class="tableBody">
+            </tbody>
+
+        </table>
+    </div>
+    <div>
+        <h4 id="monthlySalary"></h4>
+    </div>
+
+
 </body>
+
 </html>
